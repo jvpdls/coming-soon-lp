@@ -1,5 +1,6 @@
 .vscode
 dist/
+scss/css/
 
 *.css
 !*.min.css
