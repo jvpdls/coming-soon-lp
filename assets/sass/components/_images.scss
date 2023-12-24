@@ -1,0 +1,11 @@
+.full-width-image {
+  width: 100%;
+  height: auto;
+}
+
+#logo {
+  @media screen and (min-width: 90em) {
+    width: 9rem;
+    height: auto;
+  }
+}

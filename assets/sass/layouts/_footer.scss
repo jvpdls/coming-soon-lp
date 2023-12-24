@@ -1,0 +1,42 @@
+footer {
+  display: grid;
+  gap: 2.7rem;
+
+  @media screen and (min-width: 90em) {
+    gap: 2.5rem;
+  }
+}
+
+.socials__list {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.socials__icon {
+  fill: none;
+
+  &:hover {
+    fill: var(--blue);
+
+    & > g > rect {
+      fill: var(--pure-white);
+    }
+  }
+
+  & > g > rect {
+    fill: var(--blue);
+  }
+}
+
+.copyright {
+  text-align: center;
+  color: var(--grey);
+  font-size: var(--mobile-small-font-size);
+  font-weight: 300;
+
+  @media screen and (min-width: 90em) {
+    font-size: var(--desktop-small-font-size);
+  }
+}

@@ -1,0 +1,8 @@
+main {
+  width: 100%;
+  max-width: 32rem;
+
+  @media screen and (min-width: 90em) {
+    max-width: 64rem;
+  }
+}

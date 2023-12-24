@@ -1,0 +1,10 @@
+.content__hero {
+  display: grid;
+  gap: 3.2rem;
+  margin: 3.2rem 0 7.2rem 0;
+
+  @media screen and (min-width: 90em) {
+    gap: 4rem;
+    margin: 4rem 0 9.4rem 0;
+  }
+}
