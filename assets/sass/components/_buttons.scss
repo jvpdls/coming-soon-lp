@@ -12,7 +12,7 @@
 
   &:hover {
     cursor: pointer;
-    opacity: 0.204;
+    background: var(--hovered-blue);
   }
 
   @media screen and (min-width: 90em) {
